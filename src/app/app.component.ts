@@ -14,4 +14,10 @@ export class AppComponent implements OnInit{
   ngOnInit() {
     this.apiService.getUser('johnpapa').subscribe(console.log);
   }
+  repositories: any; // Define the repositories property here
+
+  searchRepositories(event: any) {
+    // Add your implementation for the searchRepositories method here
+  }
 }
+
